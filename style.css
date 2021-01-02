@@ -2,7 +2,7 @@ header {
   text-align: center;
 }
 div {
-  background: green;
+  background: black;
 } /*Hopefully that's not too ugly. I'm not great with color pallettes. */ 
 li {
   font-family: arial;
@@ -19,14 +19,14 @@ p {
   margin: 25px;
 }
 .title {
-  color:blue;
+  color: red;
 }
 .special {
-  color: blue;
+  color: red;
   text-align: left;
 }/*I know text-align left is redundant. I just felt like adding it to this line. I wanted to get some extra practice in adding mulitple rules.*/
 a:link {
-color: blue;
+color: purple;
 }
 a:visited {
 color: red;
