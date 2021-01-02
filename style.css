@@ -3,7 +3,7 @@ header {
 }
 div {
   background: green;
-}
+} /*Hopefully that's not too ugly. I'm not great with color pallettes. */ 
 li {
   font-family: arial;
 }
@@ -14,7 +14,7 @@ img {
   height: 200px;
   padding-top: 0px;
   padding: 50px;
-}
+}/*This padding helped me achieve the cascading look, I wanted to for this section in the HTML document. */
 p {
   margin: 25px;
 }
@@ -24,4 +24,10 @@ p {
 .special {
   color: blue;
   text-align: left;
+}/*I know text-align left is redundant. I just felt like adding it to this line. I wanted to get some extra practice in adding mulitple rules.*/
+a:link {
+color: blue;
+}
+a:visited {
+color: red;
 }
